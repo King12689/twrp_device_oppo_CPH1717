@@ -1,0 +1,3 @@
+# Additional System Properties
+ro.mediatek.platform=MT6750
+ro.product.device=CPH1717
