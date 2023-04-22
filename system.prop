@@ -1,3 +1,37 @@
-# Additional System Properties
-ro.mediatek.platform=MT6750
+# from device/oppo/oppo6750_17351/system.prop
+ro.mediatek.platform=MT6755
 ro.product.device=CPH1717
+ro.sf.lcd_density=320
+qemu.hw.mainkeys=1
+# USB MTP WHQL
+ro.sys.usb.mtp.whql.enable=0
+
+# Power off opt in IPO
+sys.ipo.pwrdncap=2
+
+ro.sys.usb.storage.type=mtp
+
+# USB BICR function
+ro.sys.usb.bicr=no
+
+# USB Charge only function
+ro.sys.usb.charging.only=yes
+### Add OPPO Info End for oppo6750_17351 ###
+### Add OPPO Info Begin ###
+ro.build.date.Ymd=170815
+ro.build.date.ymd=170815
+ro.build.date.YmdHM=201708150035
+ro.product.model=CPH1717
+ro.product.brand=OPPO
+ro.product.name=CPH1717
+ro.product.device=CPH1717
+ro.product.board=full_oppo6750_17351
+ro.build.product=oppo6750_17351
+ro.build.soft.version=A.02
+ro.xxversion=V1.0
+ro.build.version.ota=CPH1717EX_11.A.02_0020_201708150035
+ro.oppo.version=US
+persist.sys.oppo.region=US
+ro.build.version.opporom=V3.1
+ro.oppo.market.name=OPPO A71
+### Add OPPO Info End ###
