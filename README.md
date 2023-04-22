@@ -1,4 +1,6 @@
-## Device tree for Oppo A71 CPH1717 -- MT6750 aka mt6755 --- oppo6750_17351
+## TWRP Device tree for Oppo A71 CPH1717 - MT6750 aka mt6755 - oppo6750_17351
+  
+
 These DT was made for @K1NG about these requirement https://gist.github.com/lopestom/a5e6b690028cedd47d7e648a1035b358?permalink_comment_id=4545083#gistcomment-4545083.
 
 All thanks to @Darkweber0009 with your DT branch Android-N as base to more tests.
