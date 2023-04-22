@@ -1,13 +1,14 @@
-## TWRP Device tree for Oppo A71 CPH1717 - MT6750 aka mt6755 - oppo6750_17351
-  
-
+## TWRP Device tree for
+## Oppo A71 CPH1717 - MT6750 aka mt6755 - oppo6750_17351
+--------------
 These DT was made for @K1NG about these requirement https://gist.github.com/lopestom/a5e6b690028cedd47d7e648a1035b358?permalink_comment_id=4545083#gistcomment-4545083.
 
 All thanks to @Darkweber0009 with your DT branch Android-N as base to more tests.
+---------------
 
 #### Status
 - [X] booting
-
+--------------
 ### These DT has some files from stock recovery.img
 
 <details><summary>default.prop - Click to open</summary>
@@ -402,12 +403,12 @@ dalvik.vm.stack-trace-file=/data/anr/traces.txt
 ```
 </p>
 </details>
-
+--------------
 ### Configurations
 ========================================================
 
-The Honor V9 Play (codenamed _"CPH1717"_)
-It was announced on September 20?? .
+The Oppo A71 (codenamed _"CPH1717"_)
+It was announced on mounth 20?? .
 
 #### Device specifications
 
@@ -425,8 +426,7 @@ Battery           | 3000 mAh (non-removable)
 Display           | 720 x 1280 pixels, 5.2" (282ppi)
 Rear Camera       | 13.0 MP
 Front Camera      | 8.0 MP
-
-
+--------------
 
 #### Build TWRP
   
