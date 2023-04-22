@@ -77,6 +77,7 @@ TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 # TWRP Configuration
 TW_EXTRA_LANGUAGES := false
 TW_SCREEN_BLANK_ON_BOOT := true
+TW_NO_SCREEN_BLANK := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 RECOVERY_SDCARD_ON_DATA := true
@@ -86,10 +87,19 @@ TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_RESETPROP := true
+TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
+TW_CUSTOM_BATTERY_PATH := "/sys/devices/platform/battery/power_supply/battery"
+TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/lun%d/file
+TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 
+TW_MAX_BRIGHTNESS := 255
 TW_THEME := portrait_hdpi
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
+DEVICE_RESOLUTION := 720x1280
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
 
 # Encryption
 TW_INCLUDE_CRYPTO := true
